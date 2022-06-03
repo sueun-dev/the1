@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+   <head>
+      <!-- Meta -->
+      <title>Therapy_NFT</title>
+      <meta charset="UTF-8">
+      <script>
+         const pageName = 'NFT'
+       </script>
+      <meta name="description" content="Free HTML template">
+      <meta name="keywords" content="HTML, template, free">
+      <meta name="author" content="Nicola Tolin">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Styles -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <div class="navigation container-fluid">
+         <div class="row justify-content-md-center ">
+            <div class="col-md-10 col-sm-12">
+               <nav class="navbar navbar-default">
+                  <a class="navbar-brand" href="index.html">
+                     <h2 style="color:darkblue;">Therapy <span style="color:rgb(255, 0, 0);">NFT</span>
+                     </h2>
+                  </a>
+                  <div class="button_container" id="toggle">
+                     <span class="top"></span>
+                     <span class="middle"></span>
+                     <span class="bottom"></span>
+                  </div>
+                  <div class="overlay" id="overlay">
+                     <nav class="overlay-menu">
+                        <ul>
+                           
+                           <li> <a href="index.html">Explain Therapy NFT</a></li>
+                           <li> <a href="NFT.html">MINTING Therapy NFT</a></li>
+                           <li> <a href="contacts.html">Contact Us</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div>
+      <!-- End Navbar -->
+      <!-- Stories -->
+      <div class="container-fluid stories-2">
+         <div class="row">
+            <div class="col-md-8 offset-md-1 col-sm-12">
+               <p>WHAT IS NFT?<br><br>
+                  Color Magic.<br>
+                  It’s not virtual , It‘s real life.<br>
+                  색채의 마법.<br>
+                  가상이 아닌 현실에서도 존재합니다.<br>
+                  COLOR MAGIC nft는 색채의 힘으로 맛을 변화를 시도합니다.<br>                                             
+                  색채의 고유한 힘은 우리의 몸과 마음에 영향을 미칩니다.<br>
+                  이미지 위에 30~60초 동안 담배를 올려놓아 보세요.<br>
+                  정말 맛이 바뀔까요?<br>
+                  당신의 호기심에 도전해보세요.<br>
+                  금연에도 도움을 줍니다.<br>
+                  <br>
+                  이 NFT는 아이폰 어플 시장에서 4위를 했던 헬스케어 분야의 미디어 아트입니다.
+
+
+
+               </p>
+               
+               <button type="button" onclick="App.ConnectId()" class="btn btn-success" style="font-size: 30px;">Connect Wallet</button>
+               
+               <p id="Account", style="width: 250px; font-size: 17px;">
+                  <button class="button button4" onclick="App.CheckId()">Click Here! Show Your Kaikas Address</button>  
+               </p>
+            </div>
+         </div>
+      </div>
+      <!-- End Stories -->
+      <!-- Events -->
+      <div class="container-fluid events">
+         <div class="row">
+            <div class="col-md-10 offset-md-1">
+               <div class="row">
+                  <div class="col-xl-4 col-md-8 col-sm-12 wow fadeInLeft">
+                     <h2>MINT Therapy NFT!(가격 변경 예정)</h2>
+                     <p class="pb-5">
+                        <h2>1 NFT = 599 KLAY</h2>
+                        <h2>WL 1 NFT = 349 KLAY</h2>
+                        <div><h2><span id="total-supply"></span>/<span id="max-supply"></span></h2></div>
+                        <br/>
+                        <h2>Start Minting</h2>
+                        <div>
+                          <input type="number" id="number-of-tokens" value="1" style="margin-right: 5px; text-align:right; position:relative; left:0px; top: 9px; height: 55px; width: 120px; font-size: 30px;"/>
+                          <button type="button" onclick="buyERC721.mintWithETH()" class="btn btn-success" style="font-size: 30px;">Buy NFT</button>
+                        </div>
+                        <div>
+                           <input type="number" id="number-of-tokens1" value="1" style="margin-right: 5px; text-align:right; position:relative; left:0px; top: 9px; height: 55px; width: 120px; font-size: 30px;"/>
+                           <button type="button" onclick="buyERC721.WLmintWithETH()" class="btn btn-success" style="font-size: 30px;">WL Buy NFT</button>
+                         </div>
+                        <br>
+                     </p>
+                  </div>
+                  <div>
+                     <h2>Therapy NFT Sample
+                     <img class="card-img-top" src="img/therapy1.gif"></h2>
+                  </div>
+               </div>
+               <h2>
+                  <br>
+                  <br>
+                  <br>
+               Show Your NFT
+               구입한 NFT 뜨는 칸
+               </h2>
+               <div id ="my-nft-list" class="row row-cols-1 row-cols-md-3 g-4" style="margin: 30px 30px 50px 10px"; >
+                  <span>...</span>
+               </div>
+
+            </div>
+         </div>
+         
+      </div>
+      <!-- End Events -->
+
+
+      <!-- Footer -->
+      <div class="container-fluid footer ">
+         <div class="row">
+            <div class="col-xl-2 col-md-8 offset-md-1 col-sm-12 ">
+               <p>
+                  <a href="about.html">About</a><br>
+                  <a href="story.html">Story</a><br>
+                  <a href="NFT.html">NFT</a><br>
+                  <a href="contacts.html">Contacts</a><br>
+               </p>
+            </div>
+            <div class="col-xl-2 col-md-8 offset-md-1 col-sm-12 ">
+               <p>
+                  <a href="https://www.youtube.com/c/LoveHeo%ED%97%88%EB%8B%A4%EC%86%9C">Youtube</a><br>
+                  <a href="https://www.youtube.com/c/LoveHeo%ED%97%88%EB%8B%A4%EC%86%9C">Instargram</a><br>
+                  <a href="https://www.youtube.com/c/LoveHeo%ED%97%88%EB%8B%A4%EC%86%9C">FaceBook</a><br>
+                  <a href="https://www.youtube.com/c/LoveHeo%ED%97%88%EB%8B%A4%EC%86%9C">Twitter</a><br>
+               </p>
+            </div>
+            <div>
+                  Copyright 2022 © LoveHeo
+                  <div>CEO: XXX (Add name)</div>
+                  <div>CTO: XXX (Add name)</div>
+                  <div>CMO: XXX (Add name)</div>  
+                  <div>Artist: XXX (Add name)</div>
+            </div>
+         </div>
+      </div>
+      <!-- End Footer -->
+      <!-- Javascript -->
+      <script src="js/abi.js"></script>
+      <script src='https://cdn.jsdelivr.net/npm/bignumber.js@9.0.2/bignumber.min.js' integrity="sha256-8hM/h5mrVPZGsV7j7Qmhw4mA17ztgmzcCA092JS4b7o" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/web3@1.6.1/dist/web3.min.js" integrity="sha256-XH+mnS1YTklQJ7VzeLSviplcaKwkRWpwDwHUNXVCuIU" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="vendor/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      
+      <script src="vendor/wow/wow.js"></script>
+      <script src="js/script.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <script src="js/app.js"></script>
+      <!-- End Javascript -->
+   </body>
+</html>
